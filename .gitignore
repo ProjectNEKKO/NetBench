@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+*.tsbuildinfo
+coverage/
 
 # Editor directories and files
 .vscode/*
@@ -24,3 +26,11 @@ dist-ssr
 *.sw?
 
 docs/
+
+GEMINI.md
+.agents/
+
+# Environment variables
+.env
+.env.*
+!.env.example
